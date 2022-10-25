@@ -13,7 +13,7 @@ jobs:
     # steps collection is an ordered list of run directives
       - name: Clone-down
         uses: actions/checkout@v2 
-        run: chmod +x ci/build-app.sh && ci/build-app.sh
+        run: ci/build-app.sh
         #ach run directive is executed in the order in which it is declared
       - name: build
         run: ci/build-app.sh
