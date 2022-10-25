@@ -14,4 +14,4 @@ jobs:
         run: echo "Hello World!"
         #ach run directive is executed in the order in which it is declared
       - name: second-step
-        run: echo "Hallo again!""
+        run: echo "Hallo again!"
